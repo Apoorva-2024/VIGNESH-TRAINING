@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf8">
+    <title> Vignesh Mohan MBA</title>
+        <style type="text/css">
+        *{
+        margin:0px;
+        padding:0px;
+        font-family:Arial;
+        box-sizing:border-box;
+        }
+        #wrapdiv{
+        width:100%;
+        margin:auto;
+        }
+        #Name{
+            width:100%;
+            background-color:purple;
+            min-height:100px;
+            line-height:100px;
+            padding-left:2%;
+            color: white;
+        }
+        #Otherdetails{
+            width:100%;
+            background-color:rgb(252, 162, 252);
+            min-height:560px;
+            padding-left:2%;
+        }
+        #EducationDetails{
+            width:100%;
+            min-height:100px;
+            line-height:100px;
+            color: purple;
+        }
+        #bullets{
+            margin-left: 4%;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="wrapdiv"> 
+            <div id="Name">
+                <h1>
+                    Vignesh Mohan B.E.,MBA
+                </h1>
+            </div>
+            <div id="Otherdetails">
+                <div id="EducationDetails">
+                    <h1>
+                        Training Experience:
+                    </h1>
+                    <h2>
+                        <ul>
+                            Java
+                            <li id="bullets">
+                                Java
+                            </li>
+                        </ul>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
